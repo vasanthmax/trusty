@@ -1,0 +1,180 @@
+.user {
+  .user-tile {
+    display: flex;
+    background: #e9fafc;
+    justify-content: space-between;
+    .user-section {
+      display: flex;
+
+      flex-direction: column;
+      ul {
+        padding: 10px 40px;
+        text-decoration: none;
+        li {
+          margin-bottom: 30px;
+          list-style: none;
+          font-weight: normal;
+          font-size: 18px;
+
+          color: #298da6;
+        }
+      }
+    }
+    .user-details {
+      padding: 40px;
+      .user-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .button-one {
+          font-weight: bold;
+          font-size: 36px;
+          color: #000000;
+          text-align: center;
+          width: 466px;
+          height: 64px;
+          background: #288ea5;
+          border-radius: 22px;
+          margin-bottom: 20px;
+        }
+        .circular-icon {
+          img {
+            width: 139px;
+            height: 139px;
+            border-radius: 50%;
+            border: 5px solid #000000;
+          }
+        }
+        .circular-pencil {
+          transform: translateY(-70%);
+          width: 46px;
+          height: 46px;
+          border-radius: 50%;
+          background: #ffb905;
+          border: 3px solid #000000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .user-name {
+          font-weight: bold;
+          font-size: 30px;
+          color: #000000;
+          margin-bottom: 20px;
+        }
+        .tier {
+          background: #ffb905;
+          border: 1px solid #000000;
+          width: 141px;
+          height: 44px;
+          border-radius: 13px;
+          font-weight: bold;
+          font-size: 24px;
+          color: #000000;
+          margin-bottom: 40px;
+        }
+      }
+      .user-detail {
+        background: #cce7ea;
+        border-radius: 36px;
+        padding: 40px;
+        width: 651px;
+        margin-bottom: 40px;
+
+        .email {
+          margin-bottom: 20px;
+          .email-one {
+            font-weight: bold;
+            font-size: 24px;
+            color: rgba(0, 0, 0, 0.75);
+          }
+          .email-part {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+              font-weight: bold;
+              font-size: 30px;
+              color: #000000;
+            }
+            button {
+              width: 115px;
+              height: 46px;
+              background: #288ea5;
+              border-radius: 12px;
+              border: none;
+              font-weight: bold;
+              font-size: 24px;
+              color: #000000;
+            }
+          }
+        }
+      }
+      .user-plan {
+        background: #cce7ea;
+        border-radius: 36px 36px 0px 0px;
+        width: 651px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        p {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 28px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          color: rgba(0, 0, 0, 0.75);
+        }
+        .plan-switch {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 20px;
+          button {
+            width: 223px;
+            height: 80px;
+            background: #ffb905;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            font-size: 24px;
+            color: #000000;
+          }
+          :nth-child(1) {
+            background: none;
+          }
+        }
+        button {
+          align-self: stretch;
+          height: 94px;
+          background: #ffb905;
+          border: none;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 35px;
+          color: #000000;
+        }
+      }
+      .sign-out {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .signout {
+          background: #288ea5;
+          border-radius: 8px;
+          width: 261px;
+          height: 85px;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 35px;
+          color: #000000;
+        }
+      }
+    }
+    .tower2 {
+      align-self: flex-end;
+      height: 100%;
+    }
+  }
+}

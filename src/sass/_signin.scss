@@ -59,6 +59,7 @@
       }
     }
     button {
+      cursor: pointer;
       padding: 10px;
       font-weight: bold;
       font-size: 30px;
@@ -77,6 +78,7 @@
       font-size: 18px;
       span {
         font-weight: bold;
+        cursor: pointer;
       }
     }
   }

@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/trustylogo.png";
 import google from "../assets/google.png";
 import facebook from "../assets/facebook.png";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
@@ -20,9 +21,14 @@ const Signup = () => {
           <img src={google} alt="" />
           <img src={facebook} alt="" />
         </div>
-        <button>Register</button>
+        <Link to="/home">
+          <button>Register</button>
+        </Link>
         <p className="sigin-route">
-          Already have an account ? <span>Login</span>
+          Already have an account ?{" "}
+          <Link to="/" style={{ textDecoration: "none", color: "#000000" }}>
+            <span>Login</span>
+          </Link>
         </p>
       </div>
     </div>

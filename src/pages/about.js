@@ -26,15 +26,15 @@ const About = () => {
             <div className="photoname">
               <img src={User} alt="" />
               <p>John</p>
-            </div>{" "}
+            </div>
             <div className="photoname">
               <img src={User} alt="" />
               <p>John</p>
-            </div>{" "}
+            </div>
             <div className="photoname">
               <img src={User} alt="" />
               <p>John</p>
-            </div>{" "}
+            </div>
             <div className="photoname">
               <img src={User} alt="" />
               <p>John</p>

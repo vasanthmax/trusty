@@ -22,19 +22,21 @@
     }
     .user-details {
       padding: 40px;
+      flex: 1;
       .user-title {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         .button-one {
           font-weight: bold;
-          font-size: 36px;
+          align-self: stretch;
+          font-size: 20px;
           color: #000000;
           text-align: center;
-          width: 466px;
-          height: 64px;
+          padding: 10px;
           background: #288ea5;
-          border-radius: 22px;
+          border-radius: 10px;
           margin-bottom: 20px;
         }
         .circular-icon {
@@ -76,35 +78,34 @@
       }
       .user-detail {
         background: #cce7ea;
-        border-radius: 36px;
+        border-radius: 20px;
         padding: 40px;
-        width: 651px;
         margin-bottom: 40px;
 
         .email {
-          margin-bottom: 20px;
+          margin-bottom: 30px;
           .email-one {
             font-weight: bold;
-            font-size: 24px;
+            font-size: 18px;
             color: rgba(0, 0, 0, 0.75);
           }
           .email-part {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            height: 5vh;
             p {
               font-weight: bold;
-              font-size: 30px;
+              font-size: 20px;
               color: #000000;
             }
             button {
-              width: 115px;
-              height: 46px;
+              padding: 10px 20px;
               background: #288ea5;
-              border-radius: 12px;
+              border-radius: 8px;
               border: none;
               font-weight: bold;
-              font-size: 24px;
+              font-size: 16px;
               color: #000000;
             }
           }
@@ -112,8 +113,7 @@
       }
       .user-plan {
         background: #cce7ea;
-        border-radius: 36px 36px 0px 0px;
-        width: 651px;
+        border-radius: 20px 20px 0px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -121,7 +121,7 @@
         margin-bottom: 40px;
         p {
           font-weight: bold;
-          font-size: 24px;
+          font-size: 18px;
           line-height: 28px;
           margin-top: 20px;
           margin-bottom: 20px;
@@ -129,30 +129,29 @@
         }
         .plan-switch {
           display: flex;
-          justify-content: space-around;
-          margin-bottom: 20px;
+          align-self: stretch;
+          justify-content: space-evenly;
+          margin-bottom: 40px;
           button {
-            width: 223px;
-            height: 80px;
+            padding: 10px 20px;
             background: #ffb905;
-            border-radius: 20px;
+            border-radius: 10px;
             border: none;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 20px;
             color: #000000;
           }
           :nth-child(1) {
             background: none;
           }
         }
-        button {
+        .upgrade {
+          padding: 20px;
           align-self: stretch;
-          height: 94px;
           background: #ffb905;
           border: none;
           font-weight: bold;
-          font-size: 30px;
-          line-height: 35px;
+          font-size: 20px;
           color: #000000;
         }
       }
@@ -163,12 +162,12 @@
         .signout {
           background: #288ea5;
           border-radius: 8px;
-          width: 261px;
-          height: 85px;
+          padding: 10px 30px;
           font-weight: bold;
-          font-size: 30px;
+          font-size: 20px;
           line-height: 35px;
           color: #000000;
+          border: none;
         }
       }
     }

@@ -63,7 +63,7 @@ const UserProfile = () => {
               <button>Take Free</button>
               <button>Upgrade to pro</button>
             </div>
-            <button>See the Pro Benefits {`->`}</button>
+            <button className="upgrade">See the Pro Benefits {`->`}</button>
           </div>
           <div className="sign-out">
             <button className="signout">Sign Out</button>
